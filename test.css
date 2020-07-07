@@ -1,0 +1,19 @@
+.cont{
+    display:grid;
+    grid-template-columns: repeat(3,1fr)
+}
+
+.item{
+    align-self:flex-end;
+}
+
+
+a {
+    text-decoration: none;
+    background-color: rgb(255,79,79);
+    font-family:'Courier New', Courier, monospace;
+    width: 500px;
+    height: 200px;
+    display:inline-block;
+    flex-direction: column;
+    }
